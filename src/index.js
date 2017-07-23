@@ -56,7 +56,6 @@ export default class extends Component {
     style = assign(DefaultStyle, style, {
       display: show ? 'block' : 'none'
     })
-    console.log(style)
     return (
       <div className={className} style={style}>
         {children}
